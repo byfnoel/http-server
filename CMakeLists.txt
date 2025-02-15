@@ -17,5 +17,5 @@ find_package(asio REQUIRED)
 target_link_libraries(http-server asio::asio)
 
 # Include directories
-include_directories(/usr/local/include)
-link_directories(/usr/local/lib)
+include_directories("/opt/homebrew/opt/asio/include")
+link_directories("/opt/homebrew/opt/asio/lib")
