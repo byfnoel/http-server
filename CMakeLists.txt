@@ -1,3 +1,5 @@
+set(CMAKE_PREFIX_PATH "/opt/homebrew/opt/asio")
+
 cmake_minimum_required(VERSION 3.10)
 
 # Set the project name
@@ -16,3 +18,4 @@ target_link_libraries(http-server asio::asio)
 
 # Include directories
 include_directories(/usr/local/include)
+link_directories(/usr/local/lib)
