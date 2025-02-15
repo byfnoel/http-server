@@ -1,10 +1,10 @@
 #include <iostream>
-#include <sstream>
 #include <string>
 #include <thread>
-#include <vector>
 #include <asio.hpp>
 
+
+// Use the asio library for tcp networking connection
 using asio::ip::tcp;
 
 class HTTPServer {
